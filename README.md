@@ -1,11 +1,10 @@
-# Sample Hardhat Project
+# Timed Lock Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+TimedLock contract allows to lock ether for some address to be withdrawn in the future. It allows for multiple deposits for the same address but only takes the latest locking period as the final locking period.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
