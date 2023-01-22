@@ -10,3 +10,5 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+The contract address is 0x22C4c7cce7771E41c2e97dEd588d3803B5B5E1F9 on all the major evm networks.
